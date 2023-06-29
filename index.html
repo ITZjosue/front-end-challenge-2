@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <link rel="stylesheet" href="./assets/css/containter.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 48
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form">
+      <p class="title">Stay updated!</p>
+      <p>join 60,000+ product managers receiving monthly udpates on:</p>
+      <div>
+        <div class="list-item">
+          <span class="material-symbols-outlined">
+            check
+          </span>
+          <p>Product discovery and building what matters</p>
+        </div>
+        <div class="list-item">
+          <span class="material-symbols-outlined">
+            check
+          </span>
+          <p>Measuring to ensure updates are a success</p>
+        </div>
+        <div class="list-item">
+          <span class="material-symbols-outlined">
+            check
+          </span>
+          <p>And much more</p>
+        </div>
+      </div>
+      <div class="input-email">
+        <div class="input-top">
+          <p>Email Adress</p>
+          <p class="error-text">Valid email required</p>
+        </div>
+        <input type="email" placeholder="email@company.com"/>
+      </div>
+      <button class="base-button">Subscribe to monthly newsletter</button>
+
+    </div>
+    <div class="design">
+      <img src="./assets/images/design.png">
+    </div>
+    <div class="success-card">
+      <div class="list-success-item" style="width: 150px;">
+        <span class="material-symbols-outlined">
+          check
+        </span>
+      </div>
+      <div>
+        <p class="title-sucess">Thanks for subscribing</p>
+        <p class="text-success"></p>
+      </div>
+      <button class="dismiss-btn" >Dismiss message</button>
+    </div>
+  </div>
+</body>
+<script src="./assets/js/button.js"></script>
+</html>
+
+<!-- josue@gmail.com -->
+<!-- linear-gradient(to right, rgb(236, 72, 153), rgb(239, 68, 68), rgb(234, 179, 8)) -->
